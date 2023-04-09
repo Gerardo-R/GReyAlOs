@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <title>GReyAlOs</title>
+  <link rel="stylesheet" href="../css/styles.css">
+  <link rel="stylesheet" href="../lib/leaflet/leaflet.css" />
+  <script src="../lib/leaflet/leaflet.js"></script>
+  <script src="https://kit.fontawesome.com/246562bb87.js" crossorigin="anonymous"></script>
+  <script src="https://www.google.com/recaptcha/api.js?render=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"></script>
+  <script>
+    function onSubmit(token) {
+      document.getElementById("contact-form").submit();
+    }
+  </script>
+  <meta name="description" content="Bienvenido a GReyAlOs">
+
+</head>
+
+<body>
+  <header>
+    <div class="logo-container">
+      <img src="../img/greyalos-low-resolution-logo-white-on-transparent-background.png" alt="Logo de la empresa">
+      <h1>GReyAlOs</h1>
+    </div>
+
+    <nav>
+      <ul class="menu menu-icon" id="menu">
+        <li><a href="../index.html">Inicio <i class="fa fa-home"></i></a></li>
+        <li><a href="contacto.html">Contacto<i class="fa fa-user"></i></a></li>
+      </ul>
+    </nav>
+    <button id="toggle-button"><i class="fas fa-bars"></i></button>
+  </header>
+
+  <main>
+    <div class="mission-vision">
+      <div class="mission">
+        <h2>Misión</h2>
+        <p>Nuestra misión es proporcionar soluciones innovadoras y a medida en el desarrollo de software que mejoren la
+          eficiencia y rentabilidad de nuestros clientes.</p>
+      </div>
+      <div class="vision">
+        <h2>Visión</h2>
+        <p>Nuestra visión es ser líderes en el desarrollo de software a medida, reconocidos por la calidad de nuestros
+          productos y servicios, así como por el compromiso con nuestros clientes.</p>
+      </div>
+    </div>
+
+  </main>
+
+  <footer>
+    <div class="logo-container2">
+      <img src="../img/greyalos-low-resolution-logo-white-on-transparent-background.png" alt="Logo de la empresa">
+      <h3>GReyAlOs</h3>
+    </div>
+    <div class="about-us">
+      <h4>Sobre nosotros</h4>
+      <ul>
+        <li><a href="#">Misión y visión</a></li>
+      </ul>
+    </div>
+    <div class="social-media">
+      <h4>Síguenos</h4>
+      <a href="https://www.facebook.com/people/Greyalos/100091667172613/" target="_blank"><i
+          class="fab fa-facebook"></i></a>
+      <a href="https://www.instagram.com/greyalos1/" target="_blank"><i class="fab fa-instagram"></i></a>
+    </div>
+    <div class="copy">
+      <p>©2023 GReyAlOs</p>
+    </div>
+  </footer>
+
+  <script src="../js/script.js"></script>
+</body>
+
+</html>

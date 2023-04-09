@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <title>GReyAlOs</title>
+  <link rel="stylesheet" href="../css/styles.css">
+  <link rel="stylesheet" href="../lib/leaflet/leaflet.css" />
+  <script src="../lib/leaflet/leaflet.js"></script>
+  <script src="https://kit.fontawesome.com/246562bb87.js" crossorigin="anonymous"></script>
+  <script src="https://www.google.com/recaptcha/api.js?render=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"></script>
+  <script>
+    function onSubmit(token) {
+      document.getElementById("contact-form").submit();
+    }
+  </script>
+  <meta name="description" content="Bienvenido a GReyAlOs">
+
+</head>
+
+<body>
+  <header>
+    <div class="logo-container">
+      <img src="../img/greyalos-low-resolution-logo-white-on-transparent-background.png" alt="Logo de la empresa">
+      <h1>GReyAlOs</h1>
+    </div>
+
+    <nav>
+      <ul class="menu menu-icon" id="menu">
+        <li><a href="../index.html">Inicio <i class="fa fa-home"></i></a></li>
+        <li><a href="contacto.html">Contacto<i class="fa fa-user"></i></a></li>
+      </ul>
+    </nav>
+    <button id="toggle-button"><i class="fas fa-bars"></i></button>
+  </header>
+
+  <main>
+    <h1>Contacto</h1>
+    <div class="container">
+      <h1>Formulario de contacto</h1>
+      <form id="contact-form" action="enviar.php" method="post">
+        <div class="form-group">
+          <label for="nombre">Nombre:</label>
+          <input type="text" id="nombre" name="nombre" required>
+        </div>
+        <div class="form-group">
+          <label for="email">Correo electrónico:</label>
+          <input type="email" id="email" name="email" required>
+        </div>
+        <div class="form-group">
+          <label for="mensaje">Mensaje:</label>
+          <textarea id="mensaje" name="mensaje" required></textarea>
+        </div>
+        <div class="form-group">
+          <button class="g-recaptcha" data-sitekey="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" data-callback='onSubmit'
+            data-action='submit'>Enviar</button>
+        </div>
+      </form>
+    </div>
+
+    <div class="container">
+      <h1>Encuéntranos</h1>
+      <div id="map" style="height: 500px; width: 700px;">
+      </div>
+    </div>
+    
+  </main>
+
+  <footer>
+    <div class="logo-container2">
+      <img src="../img/greyalos-low-resolution-logo-white-on-transparent-background.png" alt="Logo de la empresa">
+      <h3>GReyAlOs</h3>
+    </div>
+    <div class="about-us">
+      <h4>Sobre nosotros</h4>
+      <ul>
+        <li><a href="misionvision.html">Misión y visión</a></li>
+      </ul>
+    </div>
+    <div class="social-media">
+      <h4>Síguenos</h4>
+      <a href="https://www.facebook.com/people/Greyalos/100091667172613/" target="_blank"><i
+          class="fab fa-facebook"></i></a>
+      <a href="https://www.instagram.com/greyalos1/" target="_blank"><i class="fab fa-instagram"></i></a>
+    </div>
+    <div class="copy">
+      <p>©2023 GReyAlOs</p>
+    </div>
+
+  </footer>
+
+  <script src="../js/script.js"></script>
+
+  <script>
+    document.addEventListener("DOMContentLoaded", function () {
+      mapa();
+    });
+  </script>
+</body>
+
+</html>

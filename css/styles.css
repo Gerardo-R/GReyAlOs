@@ -1,0 +1,296 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #cecece;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: #609;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  color: white;
+}
+
+.logo-container {
+  display: flex;
+  align-items: center;
+}
+
+.logo-container img {
+  max-height: 100px;
+  margin-right: 10px;
+}
+
+nav {
+  position: relative;
+}
+
+.menu-icon {
+  font-size: 24px;
+  color: #ffffff;
+  cursor: pointer;
+  display: none;
+}
+
+.menu {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.menu li {
+  margin-left: 20px;
+}
+
+@media screen and (max-width: 768px) {
+  .menu-icon {
+    display: block;
+  }
+
+  .menu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    right: 0;
+    background-color: #609;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    margin-top: 0;
+    margin-right: -10px;
+    border-radius: 0 0 4px 4px;
+  }
+
+  .menu li {
+    margin: 10px 0;
+  }
+}
+
+.menu a {
+  text-decoration: none;
+  color: white;
+}
+
+#toggle-button {
+  background-color: #fff;
+  border: none;
+  border-radius: 4px;
+  color: #000;
+  cursor: pointer;
+  font-size: 20px;
+  padding: 10px;
+}
+
+#toggle-button i {
+  margin-right: 5px;
+}
+
+nav a:hover {
+  background-color: #ddd;
+}
+
+#map {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+footer {
+  background-color: #609;
+  color: #fff;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+.logo-container2 {
+  display: flex;
+  align-items: center;
+}
+
+.logo-container2 img {
+  max-height: 50px;
+  margin-right: 10px;
+}
+
+.about-us {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.about-us h4 {
+  margin-bottom: 10px;
+}
+
+.about-us ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.about-us li {
+  margin-bottom: 10px;
+  color:#fff;
+}
+.about-us li a{
+  margin-bottom: 10px;
+  color:#fff;
+}
+
+.social-media a {
+  display: inline-block;
+  margin-left: 10px;
+  color: #fff;
+  font-size: 24px;
+}
+
+@media screen and (max-width: 768px) {
+  footer {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .about-us {
+    order: 2;
+  }
+
+  .social-media {
+    order: 3;
+  }
+
+  .social-media a {
+    margin-left: 0;
+    margin-right: 10px;
+  }
+}
+
+
+#descripcion-empresa {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f7f7f7;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+#descripcion-empresa h2 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+#descripcion-empresa p {
+  font-size: 18px;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+
+#video-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 70vh;
+  margin-top: 0;
+    margin-bottom: 0;
+  object-fit: cover
+}
+
+main h3 {
+  margin-bottom: 0;
+}
+
+
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  font-size: 16px;
+  margin-top: 5px;
+}
+
+button[type="submit"] {
+  display: block;
+  background-color: #1e88e5;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  padding: 10px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+button[type="submit"]:hover {
+  background-color: #1565c0;
+}
+
+.g-recaptcha {
+  display: block;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+
+
+.mission-vision {
+  padding: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.mission-vision .mission {
+  width: 45%;
+}
+
+.mission-vision .vision {
+  width: 45%;
+}
+
+.mission-vision h2 {
+  font-size: 24px;
+  margin-bottom: 16px;
+}
+
+.mission-vision p {
+  font-size: 18px;
+  line-height: 1.5;
+  margin-bottom: 32px;
+}
+
+.copy {
+  width: 100%;
+  text-align: left;
+  padding: 10px;
+}
