@@ -7,7 +7,7 @@
   // Verifica el captcha
   $url = 'https://www.google.com/recaptcha/api/siteverify';
   $data = array(
-    'secret' => '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',
+    'secret' => '6LdJgXMlAAAAAO4a-yjcBGrtguU90MkRIjz8gLgD',
     'response' => $captcha_response
   );
   $options = array(
