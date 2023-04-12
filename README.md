@@ -56,8 +56,8 @@
     <li><a href="#uso">Uso</a></li>
     <li><a href="#roadmap">Roadmap</a></li>
     <li><a href="#contributing">Contributing</a></li>
-    <li><a href="#license">License</a></li>
-    <li><a href="#contact">Contact</a></li>
+    <li><a href="#licencia">Licencia</a></li>
+    <li><a href="#contacto">Contacto</a></li>
     <li><a href="#acknowledgments">Acknowledgments</a></li>
   </ol>
 </details>
@@ -70,7 +70,7 @@
 [![Product Name Screen Shot][product-screenshot]](https://example.com)
 
 Proyecto de sitio web para una empresa de desarrollo de software a la medida, que implementa un formulario de correo con reCAPTCHA y que se envía gracias a Formspree.
-Trabajo para la materia Tecnologías Emergentes
+Trabajo para la materia Tecnologías Emergentes.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -174,16 +174,16 @@ Don't forget to give the project a star! Thanks again!
 
 
 <!-- LICENSE -->
-## License
+## Licencia
 
-Distributed under the MIT License. See `LICENSE.txt` for more information.
+Distribuido bajo la licensia MIT. Consultar `LICENSE` para más información.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
 
 <!-- CONTACT -->
-## Contact
+## Contacto
 
 Your Name - [@your_twitter](https://twitter.com/your_username) - email@example.com
 
