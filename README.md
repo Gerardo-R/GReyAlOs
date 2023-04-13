@@ -54,11 +54,9 @@
       </ul>
     </li>
     <li><a href="#uso">Uso</a></li>
-    <li><a href="#roadmap">Roadmap</a></li>
-    <li><a href="#contributing">Contributing</a></li>
     <li><a href="#licencia">Licencia</a></li>
     <li><a href="#contacto">Contacto</a></li>
-    <li><a href="#acknowledgments">Acknowledgments</a></li>
+    <li><a href="#créditos">Créditos</a></li>
   </ol>
 </details>
 
@@ -100,28 +98,41 @@ This section should list any major frameworks/libraries used to bootstrap your p
 1. Tener instalado Visual Studio Code o cualquier otro software que permita abrir el proyecto y editar el código.
 2. Crear una cuenta en [Formspree](https://formspree.io/) y crear un nuevo proyecto.
 3. En el proyecto de Formspree, configurar la cuenta de correo a la que se enviarán los formularios.
-* npm
-  ```sh
-  npm install npm@latest -g
-  ```
+4. Entrar a [Font Awesome](https://fontawesome.com/start), ingresar nuestro email para registrarse en el sitio y recibir un código de kit de iconos gratuito.
+
 
 ### Instalación
 
-_Below is an example of how you can instruct your audience on installing and setting up your app. This template doesn't rely on any external dependencies or services._
+A continuación se describen los pasos para la correcta instalación del proyecto.
 
-1. Get a free API Key at [https://example.com](https://example.com)
-2. Clone the repo
-   ```sh
-   git clone https://github.com/your_username_/Project-Name.git
+1. Clonar o [descargar](https://github.com/Gerardo-R/GReyAlOs/archive/refs/heads/main.zip) el repositorio.
+
+```sh
+  git clone Gerardo-R/GReyAlOs
+```
+
+2. En el archivo "contacto.html":
+   - Reemplazar el código de kit obtenido de Font Awesome:  
+   ```html
+      <script src="https://kit.fontawesome.com/codigo.js" crossorigin="anonymous"></script>
+   ```  
+   - Reemplazar el código de formulario de Formspree con el obtenido al crear un proyecto en Formspree:  
+   ```html
+    <form id="contact-form" action="https://formspree.io/f/codigo" method="post">
    ```
-3. Install NPM packages
-   ```sh
-   npm install
-   ```
-4. Enter your API in `config.js`
-   ```js
-   const API_KEY = 'ENTER YOUR API';
-   ```
+  
+ 3. Entrar a [reCAPTCHA admin](https://www.google.com/recaptcha/admin/create) y rellenar el formulario para obtener credenciales para reCAPTCHA v3. En el formulario hay que agregar el dominio que tendrá el sitio web publicado para que funcione reCAPTCHA.
+ 
+4. En el archivo "contacto.html":
+   - Reemplazar la clave del sitio con la obtenida a través de reCAPTCHA:  
+  ```html
+    <script src="https://www.google.com/recaptcha/api.js?render=clave-de-sitio"></script>
+    ...
+    <button class="g-recaptcha" data-sitekey="clave-de-sitio" data-callback='onSubmit' data-action='submit'>Enviar</button>
+  ```
+  
+ 5. Publicar el sitio web.
+  
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -138,45 +149,10 @@ _For more examples, please refer to the [Documentation](https://example.com)_
 
 
 
-<!-- ROADMAP -->
-## Roadmap
-
-- [x] Add Changelog
-- [x] Add back to top links
-- [ ] Add Additional Templates w/ Examples
-- [ ] Add "components" document to easily copy & paste sections of the readme
-- [ ] Multi-language Support
-    - [ ] Chinese
-    - [ ] Spanish
-
-See the [open issues](https://github.com/othneildrew/Best-README-Template/issues) for a full list of proposed features (and known issues).
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
-
-<!-- CONTRIBUTING -->
-## Contributing
-
-Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
-
-If you have a suggestion that would make this better, please fork the repo and create a pull request. You can also simply open an issue with the tag "enhancement".
-Don't forget to give the project a star! Thanks again!
-
-1. Fork the Project
-2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the Branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
-
 <!-- LICENSE -->
 ## Licencia
 
-Distribuido bajo la licensia MIT. Consultar `LICENSE` para más información.
+Distribuido bajo la licencia MIT. Consultar `LICENSE` para más información.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -185,16 +161,22 @@ Distribuido bajo la licensia MIT. Consultar `LICENSE` para más información.
 <!-- CONTACT -->
 ## Contacto
 
-Your Name - [@your_twitter](https://twitter.com/your_username) - email@example.com
+Gerardo Reyna - gerardoreyna968@gmail.com
 
-Project Link: [https://github.com/your_username/repo_name](https://github.com/your_username/repo_name)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/gerardo-reyna-199964193/)
+[![YouTube](https://img.shields.io/badge/YouTube-%23FF0000.svg?style=flat-square&logo=YouTube&logoColor=white)](https://www.youtube.com/channel/UC4uYKo9XeQSIg8iU2KhtQFQ)
+[![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?style=flat-square&logo=Instagram&logoColor=white)](https://www.instagram.com/zillamxxn/)
+
+Link del proyecto: [https://github.com/Gerardo-R/GReyAlOs](https://github.com/Gerardo-R/GReyAlOs)
+<br>
+Perfil de GitHub: [Gerardo-R](https://github.com/Gerardo-R/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
 
 <!-- ACKNOWLEDGMENTS -->
-## Acknowledgments
+## Créditos
 
 Use this space to list resources you find helpful and would like to give credit to. I've included a few of my favorites to kick things off!
 
@@ -213,18 +195,18 @@ Use this space to list resources you find helpful and would like to give credit 
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[contributors-shield]: https://img.shields.io/github/contributors/othneildrew/Best-README-Template.svg?style=for-the-badge
-[contributors-url]: https://github.com/othneildrew/Best-README-Template/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/othneildrew/Best-README-Template.svg?style=for-the-badge
-[forks-url]: https://github.com/othneildrew/Best-README-Template/network/members
-[stars-shield]: https://img.shields.io/github/stars/othneildrew/Best-README-Template.svg?style=for-the-badge
-[stars-url]: https://github.com/othneildrew/Best-README-Template/stargazers
-[issues-shield]: https://img.shields.io/github/issues/othneildrew/Best-README-Template.svg?style=for-the-badge
-[issues-url]: https://github.com/othneildrew/Best-README-Template/issues
-[license-shield]: https://img.shields.io/github/license/othneildrew/Best-README-Template.svg?style=for-the-badge
-[license-url]: https://github.com/othneildrew/Best-README-Template/blob/master/LICENSE.txt
+[contributors-shield]: https://img.shields.io/github/contributors/Gerardo-R/GReyAlOs.svg?style=for-the-badge
+[contributors-url]: https://github.com/Gerardo-R/GReyAlOs/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/Gerardo-R/GReyAlOs.svg?style=for-the-badge
+[forks-url]: https://github.com/Gerardo-R/GReyAlOs/network/members
+[stars-shield]: https://img.shields.io/github/stars/Gerardo-R/GReyAlOs.svg?style=for-the-badge
+[stars-url]: https://github.com/Gerardo-R/GReyAlOs/stargazers
+[issues-shield]: https://img.shields.io/github/issues/Gerardo-R/GReyAlOs.svg?style=for-the-badge
+[issues-url]: https://github.com/Gerardo-R/GReyAlOs/issues
+[license-shield]: https://img.shields.io/github/license/Gerardo-R/GReyAlOs.svg?style=for-the-badge
+[license-url]: https://github.com/Gerardo-R/GReyAlOs/blob/main/LICENSE
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
-[linkedin-url]: https://linkedin.com/in/othneildrew
+[linkedin-url]: https://www.linkedin.com/in/gerardo-reyna-199964193/
 [product-screenshot]: images/screenshot.png
 [Next.js]: https://img.shields.io/badge/next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white
 [Next-url]: https://nextjs.org/
