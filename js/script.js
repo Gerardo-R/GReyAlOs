@@ -1,3 +1,7 @@
+function limpiarCampos() {
+    document.getElementById("contact-form").reset();
+}
+
 function mapa(){
     // Creamos el mapa y definimos las coordenadas del marcador
     var map = L.map('map').setView([17.078016987466253, -96.74435334720452], 13);
@@ -45,9 +49,5 @@ function toggleMenu() {
       }
     });
   }
-  
-function limpiarCampos() {
-    document.getElementById("contact-form").reset();
-}
 
   setupMenu();
