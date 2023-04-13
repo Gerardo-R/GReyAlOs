@@ -262,6 +262,11 @@ button[type="submit"]:hover {
   margin-top: 20px;
 }
 
+.b-limpiar {
+  display: block;
+  margin: 0 auto;
+  margin-top: 20px;
+}
 
 .mission-vision {
   padding: 20px;
