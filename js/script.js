@@ -46,13 +46,8 @@ function toggleMenu() {
     });
   }
   
-const form = document.getElementById('contact-form');
-
-form.addEventListener('submit', function(event) {
-  event.preventDefault(); // evitar que el formulario se envíe
-  form.reset(); // borrar los campos del formulario
-  grecaptcha.reset(); // reiniciar reCAPTCHA
-});
-
+function limpiarCampos() {
+    document.getElementById("contact-form").reset();
+}
 
   setupMenu();
