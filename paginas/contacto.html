@@ -12,6 +12,7 @@
   <script>
     function onSubmit(token) {
       document.getElementById("contact-form").submit();
+      document.getElementById("contact-form").reset();
     }
   </script>
   <meta name="description" content="Bienvenido a GReyAlOs">
@@ -92,13 +93,6 @@
 
   <script>
     document.addEventListener("DOMContentLoaded", function () {
-    const nombre = document.getElementById("nombre");
-    const email = document.getElementById("email");
-    const mensaje = document.getElementById("mensaje");
-    //Dejar vacíos los campos del formulario al cargar la página
-    nombre.value = "";
-    email.value = "";
-    mensaje.value = "";
       mapa();
     });
   </script>
