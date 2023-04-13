@@ -1,3 +1,15 @@
+function validarFormulario(event) {
+  var nombre = document.getElementById("nombre");
+  var email = document.getElementById("email");
+  var mensaje = document.getElementById("mensaje");
+  // validar campos
+  if (nombre.value.trim() === "" || email.value.trim() === "" || mensaje.value.trim() === "") {
+    event.preventDefault();
+    alert("Por favor completa todos los campos.");
+  }
+}
+
+
 function limpiarCampos() {
     document.getElementById("contact-form").reset();
 }
