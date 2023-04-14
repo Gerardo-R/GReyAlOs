@@ -65,10 +65,13 @@
 <!-- ABOUT THE PROJECT -->
 ## Acerca del proyecto
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
-
 Proyecto de sitio web para una empresa de desarrollo de software a la medida, que implementa un formulario de correo con reCAPTCHA y que se envía gracias a Formspree.
-Trabajo para la materia Tecnologías Emergentes.
+Es un trabajo para la materia Tecnologías Emergentes.
+<br>
+<br>
+<a href="https://github.com/Gerardo-R/GReyAlOs/blob/main/readme/greyalos-web_pagina-principal.png">
+<img src="/readme/greyalos-web_pagina-principal.png" alt="screenshot" >
+</a>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -141,9 +144,69 @@ A continuación se describen los pasos para la correcta instalación del proyect
 <!-- USAGE EXAMPLES -->
 ## Uso
 
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
+A continuación se presenta la manera en que funciona el sitio web, específicamente sobre el envío del formulario.
+<br>
+Para ver la demostración del sitio web completo ver el siguiente [video](https://youtu.be/6xTIjFRxwJw)
+<br><br>
 
-_For more examples, please refer to the [Documentation](https://example.com)_
+Primero se ingresa al sitio de "[GReyAlOs](https://gerardo-r.github.io/GReyAlOs/)".
+<br><br>
+<a href="https://github.com/Gerardo-R/GReyAlOs/blob/main/readme/greyalos-web_pagina-principal.png">
+<img src="/readme/greyalos-web_pagina-principal.png" alt="screenshot1">
+</a>
+<br><br>
+
+Se da clic en el botón del menú lateral para mostrar las opciones.
+<br><br>
+<a href="https://github.com/Gerardo-R/GReyAlOs/blob/main/readme/greyalos-web_pagina-principal_menu-lateral-resaltado.png">
+<img src="/readme/greyalos-web_pagina-principal_menu-lateral-resaltado.png" alt="screenshot2">
+</a>
+<br><br>
+
+Se muestran las opciones de la página a la que se quiere ir.
+<br>
+Como el formulario está en la página de Contacto se da clic en Contacto.
+<br><br>
+<a href="https://github.com/Gerardo-R/GReyAlOs/blob/main/readme/greyalos-web_pagina-principal_cursor-encima-de-contacto.png">
+<img src="/readme/greyalos-web_pagina-principal_cursor-encima-de-contacto.png" alt="screenshot3">
+</a>
+<br><br>
+
+Esto dirige a la página de Contacto.
+<br><br>
+<a href="https://github.com/Gerardo-R/GReyAlOs/blob/main/readme/greyalos-web_pagina-contacto.png">
+<img src="/readme/greyalos-web_pagina-contacto.png" alt="screenshot4">
+</a>
+<br><br>
+
+Se rellenan los campos del formulario. Para este ejemplo se rellenó con los siguientes datos:
+<br>
+ - Nombre: Gerardo.
+ - Correo: gerardoreyna968@gmail.com.
+ - Mensaje: Prueba de envío de formulario.
+<br>
+<a href="https://github.com/Gerardo-R/GReyAlOs/blob/main/readme/greyalos-web_pagina-contacto_formulario-rellenado.png">
+<img src="/readme/greyalos-web_pagina-contacto_formulario-rellenado.png" alt="screenshot5">
+</a>
+<br><br>
+
+Se da clic en el botón Enviar, lo cual dirige a la siguiente página que confirma que el formulario fue enviado.
+<br><br>
+<a href="https://github.com/Gerardo-R/GReyAlOs/blob/main/readme/greyalos-web_pagina-contacto_formulario-enviado.png">
+<img src="/readme/greyalos-web_pagina-contacto_formulario-enviado.png" alt="screenshot6">
+</a>
+<br><br>
+
+Se da clic en el texto que dice "Regresar al sitio original" para regresar a la página de Contacto.
+<br><br>
+Eso es todo lo que hay que hacer para enviar un formulario.
+<br><br>
+Ahora para ver el formulario enviado se accede al cliente del correo utilizado para Formspree. Dentro se consulta la bandeja de entrada y se abre el correo del formulario recibido.
+<br><br>
+<a href="https://github.com/Gerardo-R/GReyAlOs/blob/main/readme/greyalos-web_correo-formulario-enviado.png">
+<img src="/readme/greyalos-web_correo-formulario-enviado.png" alt="screenshot7">
+</a>
+<br><br>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -178,16 +241,17 @@ Perfil de GitHub: [Gerardo-R](https://github.com/Gerardo-R/)
 <!-- ACKNOWLEDGMENTS -->
 ## Créditos
 
-Use this space to list resources you find helpful and would like to give credit to. I've included a few of my favorites to kick things off!
+Recursos utilizados.
 
 * [Choose an Open Source License](https://choosealicense.com)
-* [GitHub Emoji Cheat Sheet](https://www.webpagefx.com/tools/emoji-cheat-sheet)
-* [Malven's Flexbox Cheatsheet](https://flexbox.malven.co/)
-* [Malven's Grid Cheatsheet](https://grid.malven.co/)
 * [Img Shields](https://shields.io)
 * [GitHub Pages](https://pages.github.com)
 * [Font Awesome](https://fontawesome.com)
-* [React Icons](https://react-icons.github.io/react-icons/search)
+* [Agregar reCAPTCHA v3 a formulario](https://www.youtube.com/watch?v=LVN0dOcoEnE)
+* [Editor de video](https://www.kapwing.com/)
+* [Formspree](https://formspree.io/)
+* [OpenStreetMap](https://www.openstreetmap.org/)
+* [Leaflet](https://leafletjs.com/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -208,19 +272,4 @@ Use this space to list resources you find helpful and would like to give credit 
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://www.linkedin.com/in/gerardo-reyna-199964193/
 [product-screenshot]: images/screenshot.png
-[Next.js]: https://img.shields.io/badge/next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white
-[Next-url]: https://nextjs.org/
-[React.js]: https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB
-[React-url]: https://reactjs.org/
-[Vue.js]: https://img.shields.io/badge/Vue.js-35495E?style=for-the-badge&logo=vuedotjs&logoColor=4FC08D
-[Vue-url]: https://vuejs.org/
-[Angular.io]: https://img.shields.io/badge/Angular-DD0031?style=for-the-badge&logo=angular&logoColor=white
-[Angular-url]: https://angular.io/
-[Svelte.dev]: https://img.shields.io/badge/Svelte-4A4A55?style=for-the-badge&logo=svelte&logoColor=FF3E00
-[Svelte-url]: https://svelte.dev/
-[Laravel.com]: https://img.shields.io/badge/Laravel-FF2D20?style=for-the-badge&logo=laravel&logoColor=white
-[Laravel-url]: https://laravel.com
-[Bootstrap.com]: https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white
-[Bootstrap-url]: https://getbootstrap.com
-[JQuery.com]: https://img.shields.io/badge/jQuery-0769AD?style=for-the-badge&logo=jquery&logoColor=white
-[JQuery-url]: https://jquery.com 
+
