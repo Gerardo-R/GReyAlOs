@@ -14,7 +14,7 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <a href="https://github.com/othneildrew/Best-README-Template">
+  <a href="https://github.com/Gerardo-R/GReyAlOs/">
     <img src="img/greyalos-low-resolution-logo-white-on-transparent-background.png" alt="Logo" width="80" height="80">
   </a>
 
@@ -252,6 +252,7 @@ Recursos utilizados.
 * [Formspree](https://formspree.io/)
 * [OpenStreetMap](https://www.openstreetmap.org/)
 * [Leaflet](https://leafletjs.com/)
+* [Best-README-Template](https://github.com/othneildrew/Best-README-Template)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
